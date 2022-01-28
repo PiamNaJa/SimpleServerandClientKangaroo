@@ -5,7 +5,8 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class Server
+{
     public static void main(String args[]) throws IOException {
         ServerSocket s1 = new ServerSocket(1234);
         Socket s = s1.accept();
