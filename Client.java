@@ -16,7 +16,6 @@ public class Client
         System.out.print("Word 2 : ");
         String w2 = kb.nextLine();
         System.out.println("-----------------------------------");
-        System.out.print("\n");
         PrintWriter pr = new PrintWriter(s.getOutputStream());
         pr.println(w1);
         pr.flush();
