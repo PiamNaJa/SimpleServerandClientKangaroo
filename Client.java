@@ -9,7 +9,7 @@ public class Client
 {
     public static void main(String[] args) throws IOException 
     {
-        Socket s = new Socket("localhost", 1234);
+        Socket s = new Socket("192.168.1.113", 1234);
         Scanner kb = new Scanner(System.in); 
         System.out.print("Word 1 : ");
         String w1 = kb.nextLine();
